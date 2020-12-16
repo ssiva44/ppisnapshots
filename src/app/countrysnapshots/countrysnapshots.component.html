@@ -1,0 +1,845 @@
+<div class="container">
+    <div class="">
+  <div class="par parsys"><div class="ppi_country section">
+  <div id="ng-app" class="ng-scope" ng-app="mySnapshot" ng-controller="snapshotController">
+  <div class="row">
+  <div class="heading-v1">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2>Country Snapshots</h2>
+  </div>
+  </div>
+  </div>
+  
+  
+  <div class="row">
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+  <div class="dropdown-v2-seciton">
+      <div class="lable"></div>                
+      <div class="btn-group dropdown-group dropdown-group-inverse">
+          <button class="dropdown-select-item dropdown-toggle" title="Select a sector" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="filter-option">Select a sector</span><span class="dropdwon-arrow"></span>
+          </button>
+          <ul class="dropdown-menu dropdown-item">                
+              <!-- ngRepeat: sector in sectors --><li ng-repeat="sector in sectors" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/sector/airports" class="ng-binding">Airports</a>
+                  
+              </li><!-- end ngRepeat: sector in sectors --><li ng-repeat="sector in sectors" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/sector/collection-and-transport" class="ng-binding">Collection and Transport</a>
+                  
+              </li><!-- end ngRepeat: sector in sectors --><li ng-repeat="sector in sectors" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/sector/electricity" class="ng-binding">Electricity</a>
+                  
+              </li><!-- end ngRepeat: sector in sectors --><li ng-repeat="sector in sectors" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/sector/ict" class="ng-binding">ICT</a>
+                  
+              </li><!-- end ngRepeat: sector in sectors --><li ng-repeat="sector in sectors" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/sector/integrated-msw" class="ng-binding">Integrated MSW</a>
+                  
+              </li><!-- end ngRepeat: sector in sectors --><li ng-repeat="sector in sectors" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/sector/natural-gas" class="ng-binding">Natural Gas</a>
+                  
+              </li><!-- end ngRepeat: sector in sectors --><li ng-repeat="sector in sectors" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/sector/ports" class="ng-binding">Ports</a>
+                  
+              </li><!-- end ngRepeat: sector in sectors --><li ng-repeat="sector in sectors" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/sector/railways" class="ng-binding">Railways</a>
+                  
+              </li><!-- end ngRepeat: sector in sectors --><li ng-repeat="sector in sectors" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/sector/toll-roads" class="ng-binding">Roads</a>
+                  
+              </li><!-- end ngRepeat: sector in sectors --><li ng-repeat="sector in sectors" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/sector/treatment-disposal" class="ng-binding">Treatment/ Disposal</a>
+                  
+              </li><!-- end ngRepeat: sector in sectors --><li ng-repeat="sector in sectors" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/sector/water-and-sewerage" class="ng-binding">Water and sewerage</a>
+                  
+              </li><!-- end ngRepeat: sector in sectors -->
+          </ul>
+      </div>
+  </div>            
+  </div>
+  
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+  <div class="dropdown-v2-seciton">
+      <div class="lable"></div>                
+      <div class="btn-group dropdown-group dropdown-group-inverse">
+          <button class="dropdown-select-item dropdown-toggle" title="Select a country" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="filter-option">Select a country</span><span class="dropdwon-arrow"></span>
+          </button>
+          <ul class="dropdown-menu dropdown-item">
+              <!-- ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/afghanistan" class="ng-binding">Afghanistan</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/albania" class="ng-binding">Albania</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/algeria" class="ng-binding">Algeria</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/angola" class="ng-binding">Angola</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/antigua-and-barbuda" class="ng-binding">Antigua and Barbuda</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/argentina" class="ng-binding">Argentina</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/armenia" class="ng-binding">Armenia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/azerbaijan" class="ng-binding">Azerbaijan</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/bangladesh" class="ng-binding">Bangladesh</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/belarus" class="ng-binding">Belarus</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/belize" class="ng-binding">Belize</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/benin" class="ng-binding">Benin</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/bhutan" class="ng-binding">Bhutan</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/bolivia" class="ng-binding">Bolivia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/bosnia-and-herzegovina" class="ng-binding">Bosnia and Herzegovina</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/botswana" class="ng-binding">Botswana</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/brazil" class="ng-binding">Brazil</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/bulgaria" class="ng-binding">Bulgaria</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/burkina-faso" class="ng-binding">Burkina Faso</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/burundi" class="ng-binding">Burundi</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/cambodia" class="ng-binding">Cambodia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/cameroon" class="ng-binding">Cameroon</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/cape-verde" class="ng-binding">Cape Verde</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/central-african-republic" class="ng-binding">Central African Republic</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/chad" class="ng-binding">Chad</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/china" class="ng-binding">China</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/colombia" class="ng-binding">Colombia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/comoros" class="ng-binding">Comoros</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/congo-dem-rep" class="ng-binding">Congo, Dem. Rep.</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/congo-rep" class="ng-binding">Congo, Rep.</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/costa-rica" class="ng-binding">Costa Rica</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/cote-divoire" class="ng-binding">Côte d'Ivoire</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/cuba" class="ng-binding">Cuba</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/djibouti" class="ng-binding">Djibouti</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/dominica" class="ng-binding">Dominica</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/dominican-republic" class="ng-binding">Dominican Republic</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/ecuador" class="ng-binding">Ecuador</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/egypt-arab-rep" class="ng-binding">Egypt, Arab Rep.</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/el-salvador" class="ng-binding">El Salvador</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/ethiopia" class="ng-binding">Ethiopia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/fiji" class="ng-binding">Fiji</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/gabon" class="ng-binding">Gabon</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/gambia-the" class="ng-binding">Gambia, The</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/georgia" class="ng-binding">Georgia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/ghana" class="ng-binding">Ghana</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/grenada" class="ng-binding">Grenada</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/guatemala" class="ng-binding">Guatemala</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/guinea" class="ng-binding">Guinea</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/guinea-bissau" class="ng-binding">Guinea-Bissau</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/guyana-cr" class="ng-binding">Guyana, CR</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/haiti" class="ng-binding">Haiti</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/honduras" class="ng-binding">Honduras</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/india" class="ng-binding">India</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/indonesia" class="ng-binding">Indonesia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/iran-islamic-rep" class="ng-binding">Iran, Islamic Rep.</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/iraq" class="ng-binding">Iraq</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/jamaica" class="ng-binding">Jamaica</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/jordan" class="ng-binding">Jordan</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/kazakhstan" class="ng-binding">Kazakhstan</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/kenya" class="ng-binding">Kenya</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/kiribati" class="ng-binding">Kiribati</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/korea-dem-rep" class="ng-binding">Korea, Dem. Rep.</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/kosovo" class="ng-binding">Kosovo</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/kyrgyz-republic" class="ng-binding">Kyrgyz Republic</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/lao-pdr" class="ng-binding">Lao PDR</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/lebanon" class="ng-binding">Lebanon</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/lesotho" class="ng-binding">Lesotho</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/liberia" class="ng-binding">Liberia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/macedonia-fyr" class="ng-binding">Macedonia, FYR</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/madagascar" class="ng-binding">Madagascar</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/malawi" class="ng-binding">Malawi</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/malaysia" class="ng-binding">Malaysia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/maldives" class="ng-binding">Maldives</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/mali" class="ng-binding">Mali</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/mauritania" class="ng-binding">Mauritania</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/mauritius" class="ng-binding">Mauritius</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/mexico" class="ng-binding">Mexico</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/moldova" class="ng-binding">Moldova</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/mongolia" class="ng-binding">Mongolia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/montenegro" class="ng-binding">Montenegro</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/morocco" class="ng-binding">Morocco</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/mozambique" class="ng-binding">Mozambique</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/myanmar" class="ng-binding">Myanmar</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/namibia" class="ng-binding">Namibia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/nepal" class="ng-binding">Nepal</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/nicaragua" class="ng-binding">Nicaragua</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/niger" class="ng-binding">Niger</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/nigeria" class="ng-binding">Nigeria</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/pakistan" class="ng-binding">Pakistan</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/papua-new-guinea" class="ng-binding">Papua New Guinea</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/paraguay" class="ng-binding">Paraguay</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/peru" class="ng-binding">Peru</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/philippines" class="ng-binding">Philippines</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/romania" class="ng-binding">Romania</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/russian-federation" class="ng-binding">Russian Federation</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/rwanda" class="ng-binding">Rwanda</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/samoa" class="ng-binding">Samoa</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/sao-tome-and-principe" class="ng-binding">São Tomé and Principe</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/senegal" class="ng-binding">Senegal</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/serbia" class="ng-binding">Serbia </a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/seychelles" class="ng-binding">Seychelles</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/sierra-leone" class="ng-binding">Sierra Leone</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/solomon-islands" class="ng-binding">Solomon Islands</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/somalia" class="ng-binding">Somalia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/south-africa" class="ng-binding">South Africa</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/sri-lanka" class="ng-binding">Sri Lanka</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/st-kitts-and-nevis" class="ng-binding">St. Kitts and Nevis</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/st-lucia" class="ng-binding">St. Lucia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/st-vincent-and-the-grenadines" class="ng-binding">St. Vincent and the Grenadines</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/sudan" class="ng-binding">Sudan</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/swaziland" class="ng-binding">Swaziland</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/syrian-arab-republic" class="ng-binding">Syrian Arab Republic</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/tajikistan" class="ng-binding">Tajikistan</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/tanzania" class="ng-binding">Tanzania</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/thailand" class="ng-binding">Thailand</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/timor-leste" class="ng-binding">Timor-Leste</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/togo" class="ng-binding">Togo</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/tonga" class="ng-binding">Tonga</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/tunisia" class="ng-binding">Tunisia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/turkey" class="ng-binding">Turkey</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/uganda" class="ng-binding">Uganda</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/ukraine" class="ng-binding">Ukraine</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/uzbekistan" class="ng-binding">Uzbekistan</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/vanuatu" class="ng-binding">Vanuatu</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/venezuela-rb" class="ng-binding">Venezuela, RB</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/vietnam" class="ng-binding">Vietnam</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/west-bank-and-gaza" class="ng-binding">West Bank and Gaza</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/yemen-rep" class="ng-binding">Yemen, Rep.</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/zambia" class="ng-binding">Zambia</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries --><li ng-repeat="country in countries" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/country/zimbabwe" class="ng-binding">Zimbabwe</a>
+                  
+  
+              </li><!-- end ngRepeat: country in countries -->
+          </ul>
+      </div>
+  </div>            
+  </div>
+  
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+  <div class="dropdown-v2-seciton">
+      <div class="lable"></div>                
+      <div class="btn-group dropdown-group dropdown-group-inverse ">
+          <button class="dropdown-select-item dropdown-toggle" title="Select a region" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="filter-option">Select a region</span><span class="dropdwon-arrow"></span>
+          </button>
+          <ul class="dropdown-menu dropdown-item">
+              <!-- ngRepeat: region in regions --><li ng-repeat="region in regions" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/region/east-asia-and-pacific" class="ng-binding">East Asia and Pacific</a>
+                  
+              </li><!-- end ngRepeat: region in regions --><li ng-repeat="region in regions" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/region/europe-and-central-asia" class="ng-binding">Europe and Central Asia</a>
+                  
+              </li><!-- end ngRepeat: region in regions --><li ng-repeat="region in regions" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/region/latin-america-and-the-caribbean" class="ng-binding">Latin America and the Caribbean</a>
+                  
+              </li><!-- end ngRepeat: region in regions --><li ng-repeat="region in regions" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/region/middle-east-and-north-africa" class="ng-binding">Middle East and North Africa</a>
+                  
+              </li><!-- end ngRepeat: region in regions --><li ng-repeat="region in regions" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/region/south-asia" class="ng-binding">South Asia</a>
+                  
+              </li><!-- end ngRepeat: region in regions --><li ng-repeat="region in regions" class="ng-scope">
+                  
+                  <a href="https://ppi.worldbank.org/en/snapshots/region/sub-saharan-africa" class="ng-binding">Sub-Saharan Africa</a>
+                  
+              </li><!-- end ngRepeat: region in regions -->
+          </ul>
+      </div>
+  </div>            
+  </div>
+  </div>
+  <br>
+  <div class="selection-head">
+  
+  <img src="/content/dam/doingBusiness/country/c/china/china.gif" title="china" class="icon">
+  <span class="label ng-binding">China</span>
+  <div style="font-size:78%;color:red;text-align:right;"></div>
+  </div>
+  <div class="rzslider ng-isolate-scope" rz-slider-model="slider.minValue" rz-slider-high="slider.maxValue" rz-slider-options="slider.options"><span class="rz-bar-wrapper rz-left-out-selection" style="visibility: hidden;"><span class="rz-bar"></span></span> <span class="rz-bar-wrapper rz-right-out-selection" style="visibility: hidden;"><span class="rz-bar"></span></span> <span class="rz-bar-wrapper"><span class="rz-bar"></span></span> <span class="rz-bar-wrapper" style="visibility: visible; width: 310px; left: 16px;"><span class="rz-bar rz-selection" ng-style="barStyle"></span></span> <span class="rz-bar-wrapper" style="visibility: hidden;"><span class="rz-bar rz-restricted" ng-style="restrictionStyle"></span></span> <span class="rz-pointer rz-pointer-min" ng-style="minPointerStyle" role="slider" aria-valuenow="1990" aria-valuetext="1990" aria-valuemin="1990" aria-valuemax="2020" tabindex="0" aria-orientation="horizontal" style="left: 0px;"></span> <span class="rz-pointer rz-pointer-max" ng-style="maxPointerStyle" aria-valuenow="2020" aria-valuetext="H1 2020" aria-valuemin="1990" aria-valuemax="2020" role="slider" tabindex="0" aria-orientation="horizontal" style="left: 310px;"></span> <span class="rz-bubble rz-limit rz-floor" style="visibility: hidden; left: 0px;">1990</span> <span class="rz-bubble rz-limit rz-ceil" style="visibility: hidden; left: 290px;">H1 2020</span> <span class="rz-bubble rz-model-value" style="visibility: visible; left: 0px;">1990</span> <span class="rz-bubble rz-model-high" style="visibility: visible; left: 290px;">H1 2020</span> <span class="rz-bubble" style="visibility: hidden;"></span><ul ng-show="showTicks" class="rz-ticks ng-hide"><!-- ngRepeat: t in ticks track by $index --></ul></div>
+  
+  <div class="highlights-block">
+  <div class="highlights-head"> 
+  <span class="ng-binding">Highlights  (1990 - 2020) </span>
+  </div>
+  <div class="highlights-data">
+  <div class="row highlights-list">
+      <div class="col-lg-4 highlights-list-item">Infrastructure Sectors Reported </div>
+      <div class="col-lg-4 highlights-list-item ng-binding">Airports, Collection and Transport, Electricity, ICT, Integrated MSW, Natural Gas, Ports, Railways, Roads, Treatment/ Disposal, Water and sewerage</div>
+  </div>
+  <div class="row highlights-list">
+      <div class="col-lg-4 highlights-list-item"> Projects reaching financial closure</div>
+      <div class="col-lg-4 highlights-list-item ng-binding">1,872</div>
+  </div>
+  <div class="row highlights-list">
+      <div class="col-lg-4 highlights-list-item">Total investment </div>
+      <div class="col-lg-4 highlights-list-item ng-binding">240,944</div>
+  </div>
+  <div class="row highlights-list">
+      <div class="col-lg-4 highlights-list-item">Sector with largest investment share </div>
+      <div class="col-lg-4 highlights-list-item ng-binding">Roads</div>
+  </div>
+  <div class="row highlights-list">
+      <div class="col-lg-4 highlights-list-item"> Type of PPI with largest share in investment</div>
+      <div class="col-lg-4 highlights-list-item ng-binding">Greenfield project</div>
+  </div>
+  <div class="row highlights-list">
+      <div class="col-lg-4 highlights-list-item"> Projects cancelled or under distress</div>
+      <div class="col-lg-4 highlights-list-item ng-binding">36 representing 2.1% of total investment</div>
+  </div>
+  </div>
+  </div>
+  <div class="chart-block">
+  <div class="chart-container">
+  <div class="chart chart1 col-md-6 col-xs-12">
+      <span class="chart-title clearfix">
+          <span> Projects reaching financial closure by sector</span>   
+      </span>
+      <div column-chart="bySectorCountChart" ytext="Number of projects" xtext="" axis-field="SubSector" y-axis-field="Project Count" class="ng-isolate-scope"><svg width="470" height="250" class=""><g transform="translate(60,30)"><g class="x-axis" transform="translate(0,150)"><g class="tick" transform="translate(30,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Airports</tspan></text></g><g class="tick" transform="translate(64,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Collection and</tspan><tspan x="0" y="9" dy="0.55em">Transport</tspan></text></g><g class="tick" transform="translate(98,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Electricity</tspan></text></g><g class="tick" transform="translate(132,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">ICT</tspan></text></g><g class="tick" transform="translate(166,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Integrated MSW</tspan></text></g><g class="tick" transform="translate(200,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Natural Gas</tspan></text></g><g class="tick" transform="translate(234,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Ports</tspan></text></g><g class="tick" transform="translate(268,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Railways</tspan></text></g><g class="tick" transform="translate(302,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Roads</tspan></text></g><g class="tick" transform="translate(336,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Treatment/</tspan><tspan x="0" y="9" dy="0.55em">Disposal</tspan></text></g><g class="tick" transform="translate(370,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Water and</tspan><tspan x="0" y="9" dy="0.55em">sewerage</tspan></text></g><path class="domain" d="M0,6V0H400V6"></path></g><g class="y-axis"><g class="tick" transform="translate(0,150)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" class="yaxis-label" style="text-anchor: end; font-size: 12px;">0</text></g><g class="tick" transform="translate(0,124.61928934010152)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" class="yaxis-label" style="text-anchor: end; font-size: 12px;">100</text></g><g class="tick" transform="translate(0,99.23857868020303)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" class="yaxis-label" style="text-anchor: end; font-size: 12px;">200</text></g><g class="tick" transform="translate(0,73.85786802030458)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" class="yaxis-label" style="text-anchor: end; font-size: 12px;">300</text></g><g class="tick" transform="translate(0,48.47715736040609)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" class="yaxis-label" style="text-anchor: end; font-size: 12px;">400</text></g><g class="tick" transform="translate(0,23.096446700507613)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" class="yaxis-label" style="text-anchor: end; font-size: 12px;">500</text></g><path class="domain" d="M-6,0H0V150H-6"></path></g><rect class="bar" x="18" width="24" y="144.16243654822335" height="5.837563451776646"></rect><rect class="bar" x="52" width="24" y="148.98477157360406" height="1.015228426395936"></rect><rect class="bar" x="86" width="24" y="28.17258883248731" height="121.8274111675127"></rect><rect class="bar" x="120" width="24" y="148.98477157360406" height="1.015228426395936"></rect><rect class="bar" x="154" width="24" y="148.7309644670051" height="1.2690355329949057"></rect><rect class="bar" x="188" width="24" y="99.23857868020303" height="50.761421319796966"></rect><rect class="bar" x="222" width="24" y="130.71065989847716" height="19.28934010152284"></rect><rect class="bar" x="256" width="24" y="143.6548223350254" height="6.345177664974614"></rect><rect class="bar" x="290" width="24" y="82.48730964467006" height="67.51269035532994"></rect><rect class="bar" x="324" width="24" y="98.4771573604061" height="51.522842639593904"></rect><rect class="bar" x="358" width="24" y="0" height="150"></rect><text x="23" y="139.16243654822335" class="datapoint-label">23</text><text x="57" y="143.98477157360406" class="datapoint-label">4</text><text x="91" y="23.17258883248731" class="datapoint-label">480</text><text x="125" y="143.98477157360406" class="datapoint-label">4</text><text x="159" y="143.7309644670051" class="datapoint-label">5</text><text x="193" y="94.23857868020303" class="datapoint-label">200</text><text x="227" y="125.71065989847716" class="datapoint-label">76</text><text x="261" y="138.6548223350254" class="datapoint-label">25</text><text x="295" y="77.48730964467006" class="datapoint-label">266</text><text x="329" y="93.4771573604061" class="datapoint-label">203</text><text x="363" y="-5" class="datapoint-label">591</text><text class="xtitle" transform="translate(200,180)" style="text-anchor: middle;"></text><text class="ytitle" text-anchor="middle" transform="translate(-40,75)rotate(-90)">Number of projects</text></g></svg></div>
+  </div>
+  <div class="chart chart2 col-md-6 col-xs-12">
+      <span class="chart-title clearfix">
+          <span> Investment in projects by sector (US$ million)</span>   
+      </span>
+      <div column-chart="bySectorInvestmentChart" ytext="Investments" xtext="" axis-field="SubSector" y-axis-field="Total Investment" class="ng-isolate-scope"><svg width="485" height="250" class=""><g transform="translate(75,30)"><g class="x-axis" transform="translate(0,150)"><g class="tick" transform="translate(30,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Airports</tspan></text></g><g class="tick" transform="translate(64,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Collection and</tspan><tspan x="0" y="9" dy="0.55em">Transport</tspan></text></g><g class="tick" transform="translate(98,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Electricity</tspan></text></g><g class="tick" transform="translate(132,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">ICT</tspan></text></g><g class="tick" transform="translate(166,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Integrated MSW</tspan></text></g><g class="tick" transform="translate(200,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Natural Gas</tspan></text></g><g class="tick" transform="translate(234,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Ports</tspan></text></g><g class="tick" transform="translate(268,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Railways</tspan></text></g><g class="tick" transform="translate(302,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Roads</tspan></text></g><g class="tick" transform="translate(336,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Treatment/</tspan><tspan x="0" y="9" dy="0.55em">Disposal</tspan></text></g><g class="tick" transform="translate(370,0)" style="opacity: 1;"><line y2="6" x2="0"></line><text dy="-.55em" y="9" x="0" dx="-.8em" transform="rotate(-50)" class="xaxis-label" style="text-anchor: end;"><tspan x="0" y="9" dy="-0.55em">Water and</tspan><tspan x="0" y="9" dy="0.55em">sewerage</tspan></text></g><path class="domain" d="M0,6V0H400V6"></path></g><g class="y-axis"><g class="tick" transform="translate(0,150)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" class="yaxis-label" style="text-anchor: end; font-size: 12px;">0</text></g><g class="tick" transform="translate(0,110.67347976781623)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" class="yaxis-label" style="text-anchor: end; font-size: 12px;">20,000</text></g><g class="tick" transform="translate(0,71.34695953563244)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" class="yaxis-label" style="text-anchor: end; font-size: 12px;">40,000</text></g><g class="tick" transform="translate(0,32.020439303448676)" style="opacity: 1;"><line x2="-6" y2="0"></line><text dy=".32em" x="-9" y="0" class="yaxis-label" style="text-anchor: end; font-size: 12px;">60,000</text></g><path class="domain" d="M-6,0H0V150H-6"></path></g><rect class="bar" x="18" width="24" y="141.69360970263907" height="8.306390297360934"></rect><rect class="bar" x="52" width="24" y="149.9571144296868" height="0.04288557031318874"></rect><rect class="bar" x="86" width="24" y="35.97158265648026" height="114.02841734351975"></rect><rect class="bar" x="120" width="24" y="127.62714263991064" height="22.372857360089355"></rect><rect class="bar" x="154" width="24" y="148.74532669851243" height="1.2546733014875713"></rect><rect class="bar" x="188" width="24" y="140.99627184588198" height="9.003728154118022"></rect><rect class="bar" x="222" width="24" y="120.30647157216941" height="29.693528427830586"></rect><rect class="bar" x="256" width="24" y="84.10143489363485" height="65.89856510636515"></rect><rect class="bar" x="290" width="24" y="0" height="150"></rect><rect class="bar" x="324" width="24" y="115.44439623304373" height="34.55560376695627"></rect><rect class="bar" x="358" width="24" y="110.41193968884853" height="39.588060311151466"></rect><text x="23" y="136.69360970263907" class="datapoint-label">4,224</text><text x="57" y="144.9571144296868" class="datapoint-label">22</text><text x="91" y="30.97158265648026" class="datapoint-label">57,991</text><text x="125" y="122.62714263991064" class="datapoint-label">11,378</text><text x="159" y="143.74532669851243" class="datapoint-label">638</text><text x="193" y="135.99627184588198" class="datapoint-label">4,579</text><text x="227" y="115.30647157216941" class="datapoint-label">15,101</text><text x="261" y="79.10143489363485" class="datapoint-label">33,514</text><text x="295" y="-5" class="datapoint-label">76,284</text><text x="329" y="110.44439623304373" class="datapoint-label">17,574</text><text x="363" y="105.41193968884853" class="datapoint-label">20,133</text><text class="xtitle" transform="translate(200,180)" style="text-anchor: middle;"></text><text class="ytitle" text-anchor="middle" transform="translate(-55,75)rotate(-90)">Investments</text></g></svg></div>
+  </div>
+  </div>
+  </div>
+  
+  <div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  
+  </div>
+  </div>
+  </div>
+  
+  
+  
+  
+  
+  </div>
+  
+  </div>
+  
+  </div>
+  </div>
